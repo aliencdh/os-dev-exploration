@@ -8,11 +8,11 @@
 mov [diskNum], dl
 
 ; code I don't understand 
-; xor ax, ax
-; mov es, ax
-; mov ds, ax
-; mov bp, 0x8000
-; mov sp, bp
+xor ax, ax
+mov es, ax
+mov ds, ax
+mov bp, 0x8000
+mov sp, bp
 
 ; load sector
 mov ch, 0 ; cylinder number
